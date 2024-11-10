@@ -144,6 +144,8 @@ if (window.location.hostname.includes('chatgpt.com')) {
             .replace(/<ul>\s*<li>(.*?)<\/li>\s*<\/ul>/g, '- $1\n')
             .replace(/<span.*?>(.*?)<\/span>/g, '$1')
             .replace(/<img.*?alt="(.*?)".*?>/g, '![$1]')
+            .replace(/<pre><code>(.*?)<\/code><\/pre>/g, '```$1```')
+            .replace(/<blockquote>(.*?)<\/blockquote>/g, '> $1\n')
             .replace(/<[^>]+>/g, '') // 移除所有其他的 HTML 標籤
             .trim();
     }
