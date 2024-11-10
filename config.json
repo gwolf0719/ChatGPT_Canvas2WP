@@ -1,6 +1,0 @@
-{
-    "blogs": [
-      { "name": "www ladesign 報報", "apiUrl": "https://www.ladesign.tw/wp-json/wp/v2/posts", "token": "james:qrGU oaxB Vpcf Syef 2vmP YxFi" },
-      { "name": "blog ladesign 技術部落", "apiUrl": "https://blog.ladesign.tw/wp-json/wp/v2/posts", "token": "james:9Gxg YVFf DTLi vg2Q xTMW zy00" }
-    ]
-}
