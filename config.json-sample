@@ -1,0 +1,6 @@
+{
+    "blogs": [
+      { "name": "wordpress 1", "apiUrl": "https://wordpress1.domain.com/wp-json/wp/v2/posts", "token": "account:token" },
+      { "name": "wordpress 2", "apiUrl": "https://wordpress2.domain.com/wp-json/wp/v2/posts", "token": "account:token" }
+    ]
+}

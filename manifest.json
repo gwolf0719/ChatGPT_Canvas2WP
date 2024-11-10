@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Canvas to WordPress",
+    "version": "1.0",
+    "description": "A browser extension to add a button on specific pages for easy integration with WordPress.",
+    "icons": {
+      "48": "icon.png"
+    },
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "*://chatgpt.com/*"
+        ],
+        "js": ["content.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["icon.png", "config.json"],
+        "matches": ["*://*/*"]
+      }
+    ]
+  }
